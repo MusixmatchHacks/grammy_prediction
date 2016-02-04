@@ -1,0 +1,33 @@
+{
+  "name": "vocab-genres",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "modernizr": "~2.8.3",
+    "d3": "~3.5.9",
+    "bootstrap-material-design": "~0.3.0",
+    "social-share-kit": "~1.0.6",
+    "disqus-thread": "~0.0.1",
+    "datatables.net": "~1.10.10",
+    "datatables.net-dt": "~1.10.9"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js",
+        "dist/fonts/*"
+      ]
+    },
+    "masonry": {
+      "main": [
+        "dist/masonry.pkgd.js"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "~3.4.0",
+    "mocha": "~2.3.3"
+  }
+}
