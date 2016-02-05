@@ -566,3 +566,131 @@ h1 a:hover{
   margin-bottom:0px;
   margin-top: 30px;
 }
+
+.backgrnd {
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 368px;
+  /*background-color: #ffffff;*/
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  /*padding-left: 10px !important;
+  padding-right: 10px !important;*/
+  /*margin-left: 20px;
+  margin-right: 20px;*/
+  /*border: 2px solid #FFF;*/
+}
+
+.track-link {
+  text-decoration: none;
+  color: white;
+}
+
+.track-link:hover {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.track {
+  background-color: rgba(45, 45, 45, 0.71);
+  transition: background-color 0.3s ease;
+  width: 100%;
+  height: 100%;
+  font-size: 36px;
+  position: relative;
+  color: white;
+}
+
+.credits {
+  position: relative;
+  display: inline;
+  top: 30px;
+}
+
+.title {
+  /*text-align: left;*/
+  /*margin-left: 30px;*/
+  font-size: 0.700em;
+  line-height: 117%;
+  margin-bottom: 20px;
+  /*height: 50%;*/
+}
+
+/*.artist {
+  text-align: left;
+  font-size: 0.756em;
+  line-height: 116%;
+  font-weight: 300;
+
+}*/
+
+/*.quote {
+  position: absolute;
+  bottom: 60px;
+  max-height: 190px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}*/
+
+/*quoteBig::before {
+  display: block;
+  content: "\201C";
+
+  position: relative;
+
+  height: .53em;
+
+  color: rgba(255, 255, 255, .8);
+  cursor: text;
+
+  left: 0.35em;
+  font-family: 'PT Serif';
+  font-style: italic;
+
+  font-size: 2.389em;
+  line-height: 133%;
+  text-align: left;
+}*/
+
+.snippet {
+  /*font-size: 25px;*/
+  margin-top: 0;
+  margin-bottom: 20px;
+  /*margin-left: 10px;*/
+  /*margin-left: 0.278em;*/
+  position: relative;
+  /*text-align: left;*/
+  /*margin-left: 35px;*/
+  /*margin-left: 0.972em;*/
+  /*margin-right: 20px;*/
+  /*margin-right: 0.556em;*/
+  font-family: 'PT Serif';
+  font-size: 0.856em;
+  line-height: 132%;
+  /*top: -55px;*/
+  /*line-height:10px;*/
+  /*height:200px;*/
+}
+
+.info {
+  height: 50%;
+  width: 100%;
+}
+
+.year{
+  font-size: 3em;
+  line-height: 116%;
+  margin-bottom: 20px;
+}
+
+.controls{
+  font-size: 0.5em;
+}
+
+.share{
+  color: white;
+}

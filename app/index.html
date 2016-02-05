@@ -101,7 +101,7 @@
       <div id='' class='figure-title text-uppercase'>
         <p>Song of the year 2016 predictions</p>
       </div>
-      <p>Combining all the nominees and winners in this category since 1959 gives us a total of 297 songs. This is not enough data to build such a model and these predictions should be taken with a very big pinch of salt. But the trends studied and insights derived from this process are worth looking at.</p>
+      <p>Combining all the nominees and winners in this category since 1959 gives us a total of 295 songs. This is not enough data to build such a model and these predictions should be taken with a very big pinch of salt. But the trends studied and insights derived from this process are worth looking at.</p>
       <p>So, let us take a look at how we did it.</p>
 
       <!-- <img id='' class='' src='images/overview.jpg'>
@@ -115,7 +115,8 @@
         <span>The winners and the nominees</span>
       </h1>
       <p>Lorem</p>
-      <!-- <img id='' class='' src='images/overview_results.jpg'> -->
+
+      <div id='winners_nominees_player'></div>
       <div id='' class='figure-title text-uppercase'>
         <p>Winners and nominees</p>
       </div>
@@ -307,6 +308,7 @@
   <script src='/bower_components/bootstrap-material-design/dist/js/ripples.js'></script>
   <script src='/bower_components/social-share-kit/dist/js/social-share-kit.min.js'></script>
   <script src='/bower_components/datatables.net/js/jquery.dataTables.js'></script>
+  <script src='/bower_components/handlebars/handlebars.js'></script>
   <!-- endbower -->
 
   <!-- endbuild -->
@@ -329,8 +331,30 @@
 
 
   <!-- build:js scripts/main.js -->
-  <script src="scripts/main.js"></script>
 
+  <script id="template-chart-track" type="text/x-handlebars-template">
+
+          <div class=''>
+            <div class="backgrnd" style="background-image: url({{big_image}});">
+              <div class="track">
+                    <!--<a href="{{share_url}}" class='track-link' target="blank"></a>-->
+                    <!--<span class='share fa fa-external-link'> </span>-->
+                    <div class='year text-center'> {{year}} <i class="fa fa-external-link" style='color:white'></i> </div>
+                    <div class="snippet text-center"> "<i>{{snippet}}</i>"</div>
+                    <div class='title text-center'> {{title}}, {{artist}} </div>
+                    <div class='controls text-center'> <span>Play</span> <span>Pause</span> </div>
+                    <!--<div class='artist text-center'>  </div>-->
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </script>
+    <script src="scripts/all_data.js"></script>
+    <script src="scripts/nominees_yr_wise.js"></script>
+    <script src="scripts/winners_yr_wise.js"></script>
+    <script src="scripts/main.js"></script>
   <!-- endbuild -->
 
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

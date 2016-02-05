@@ -9,7 +9,9 @@
     "social-share-kit": "~1.0.6",
     "disqus-thread": "~0.0.1",
     "datatables.net": "~1.10.10",
-    "datatables.net-dt": "~1.10.9"
+    "datatables.net-dt": "~1.10.9",
+    "handlebars": "~4.0.5",
+    "font-awesome": "fontawesome#~4.5.0"
   },
   "overrides": {
     "bootstrap": {
